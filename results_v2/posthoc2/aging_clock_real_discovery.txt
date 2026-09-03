@@ -1,0 +1,44 @@
+=== aging-controls analysis=clock mode=real half=discovery start Mon Jul 20 01:11:14 +04 2026 on cn101 ===
+[01:14:49] contributors total=908,417 discovery=454,515 holdout=453,902
+[01:14:49] RUNNING aging analysis=clock mode=real half=discovery parquet=/scratch/$USER/codersq/impact/joined/work_reach_v2.parquet
+[01:14:58] [1/36] {'credit': 'R-share', 'W': 24, 'n_min': 3, 'proxy': 'reach2'} N=628 A_latepre=0.317 A_post=0.426 delta=0.109 B=150
+[01:15:07] [2/36] {'credit': 'R-share', 'W': 24, 'n_min': 3, 'proxy': 'indeg'} N=628 A_latepre=0.247 A_post=0.370 delta=0.123 B=150
+[01:15:24] [3/36] {'credit': 'R-share', 'W': 24, 'n_min': 5, 'proxy': 'reach2'} N=410 A_latepre=0.294 A_post=0.402 delta=0.108 B=400
+[01:15:32] [4/36] {'credit': 'R-share', 'W': 24, 'n_min': 5, 'proxy': 'indeg'} N=410 A_latepre=0.232 A_post=0.351 delta=0.119 B=150
+[01:15:36] [5/36] {'credit': 'R-share', 'W': 24, 'n_min': 10, 'proxy': 'reach2'} N=134 A_latepre=0.211 A_post=0.357 delta=0.146 B=150
+[01:15:40] [6/36] {'credit': 'R-share', 'W': 24, 'n_min': 10, 'proxy': 'indeg'} N=134 A_latepre=0.158 A_post=0.322 delta=0.164 B=150
+[01:15:44] [7/36] {'credit': 'R-share', 'W': 36, 'n_min': 3, 'proxy': 'reach2'} N=254 A_latepre=0.000 A_post=0.281 delta=0.281 B=150
+[01:15:48] [8/36] {'credit': 'R-share', 'W': 36, 'n_min': 3, 'proxy': 'indeg'} N=254 A_latepre=0.000 A_post=0.146 delta=0.146 B=150
+[01:15:51] [9/36] {'credit': 'R-share', 'W': 36, 'n_min': 5, 'proxy': 'reach2'} N=180 A_latepre=0.000 A_post=0.271 delta=0.271 B=150
+/home/$USER/codersq/impact/qmodel.py:252: RuntimeWarning: invalid value encountered in scalar divide
+  ac = np.array([(num[lag] / cnt[lag]) / var for lag in range(max_lag + 1)])
+[01:15:55] [10/36] {'credit': 'R-share', 'W': 36, 'n_min': 5, 'proxy': 'indeg'} N=180 A_latepre=0.000 A_post=0.129 delta=0.129 B=150
+[01:15:57] [11/36] {'credit': 'R-share', 'W': 36, 'n_min': 10, 'proxy': 'reach2'} N=64 A_latepre=0.000 A_post=0.164 delta=0.164 B=150
+[01:16:00] [12/36] {'credit': 'R-share', 'W': 36, 'n_min': 10, 'proxy': 'indeg'} N=64 A_latepre=0.000 A_post=0.032 delta=0.032 B=150
+[01:16:08] [13/36] {'credit': 'R-lead', 'W': 24, 'n_min': 3, 'proxy': 'reach2'} N=562 A_latepre=0.178 A_post=0.388 delta=0.210 B=150
+[01:16:16] [14/36] {'credit': 'R-lead', 'W': 24, 'n_min': 3, 'proxy': 'indeg'} N=562 A_latepre=0.188 A_post=0.343 delta=0.155 B=150
+[01:16:23] [15/36] {'credit': 'R-lead', 'W': 24, 'n_min': 5, 'proxy': 'reach2'} N=365 A_latepre=0.223 A_post=0.369 delta=0.147 B=150
+[01:16:30] [16/36] {'credit': 'R-lead', 'W': 24, 'n_min': 5, 'proxy': 'indeg'} N=365 A_latepre=0.190 A_post=0.326 delta=0.136 B=150
+[01:16:34] [17/36] {'credit': 'R-lead', 'W': 24, 'n_min': 10, 'proxy': 'reach2'} N=119 A_latepre=0.148 A_post=0.346 delta=0.198 B=150
+[01:16:38] [18/36] {'credit': 'R-lead', 'W': 24, 'n_min': 10, 'proxy': 'indeg'} N=119 A_latepre=0.122 A_post=0.311 delta=0.189 B=150
+[01:16:41] [19/36] {'credit': 'R-lead', 'W': 36, 'n_min': 3, 'proxy': 'reach2'} N=226 A_latepre=0.000 A_post=0.140 delta=0.140 B=150
+[01:16:45] [20/36] {'credit': 'R-lead', 'W': 36, 'n_min': 3, 'proxy': 'indeg'} N=226 A_latepre=0.000 A_post=0.007 delta=0.007 B=150
+[01:16:48] [21/36] {'credit': 'R-lead', 'W': 36, 'n_min': 5, 'proxy': 'reach2'} N=156 A_latepre=0.000 A_post=0.119 delta=0.119 B=150
+[01:16:51] [22/36] {'credit': 'R-lead', 'W': 36, 'n_min': 5, 'proxy': 'indeg'} N=156 A_latepre=0.000 A_post=0.048 delta=0.048 B=150
+[01:16:53] [23/36] {'credit': 'R-lead', 'W': 36, 'n_min': 10, 'proxy': 'reach2'} N=57 A_latepre=0.000 A_post=0.071 delta=0.071 B=150
+[01:16:56] [24/36] {'credit': 'R-lead', 'W': 36, 'n_min': 10, 'proxy': 'indeg'} N=57 A_latepre=0.000 A_post=0.000 delta=0.000 B=150
+[01:17:04] [25/36] {'credit': 'R-core', 'W': 24, 'n_min': 3, 'proxy': 'reach2'} N=626 A_latepre=0.040 A_post=0.241 delta=0.201 B=150
+[01:17:14] [26/36] {'credit': 'R-core', 'W': 24, 'n_min': 3, 'proxy': 'indeg'} N=626 A_latepre=0.010 A_post=0.208 delta=0.198 B=150
+[01:17:21] [27/36] {'credit': 'R-core', 'W': 24, 'n_min': 5, 'proxy': 'reach2'} N=404 A_latepre=0.023 A_post=0.274 delta=0.252 B=150
+[01:17:28] [28/36] {'credit': 'R-core', 'W': 24, 'n_min': 5, 'proxy': 'indeg'} N=404 A_latepre=0.041 A_post=0.240 delta=0.199 B=150
+[01:17:32] [29/36] {'credit': 'R-core', 'W': 24, 'n_min': 10, 'proxy': 'reach2'} N=131 A_latepre=0.117 A_post=0.320 delta=0.203 B=150
+[01:17:37] [30/36] {'credit': 'R-core', 'W': 24, 'n_min': 10, 'proxy': 'indeg'} N=131 A_latepre=0.083 A_post=0.289 delta=0.206 B=150
+[01:17:41] [31/36] {'credit': 'R-core', 'W': 36, 'n_min': 3, 'proxy': 'reach2'} N=248 A_latepre=0.000 A_post=0.123 delta=0.123 B=150
+[01:17:44] [32/36] {'credit': 'R-core', 'W': 36, 'n_min': 3, 'proxy': 'indeg'} N=248 A_latepre=0.000 A_post=0.081 delta=0.081 B=150
+[01:17:48] [33/36] {'credit': 'R-core', 'W': 36, 'n_min': 5, 'proxy': 'reach2'} N=174 A_latepre=0.000 A_post=0.122 delta=0.122 B=150
+[01:17:51] [34/36] {'credit': 'R-core', 'W': 36, 'n_min': 5, 'proxy': 'indeg'} N=174 A_latepre=0.000 A_post=0.071 delta=0.071 B=150
+[01:17:54] [35/36] {'credit': 'R-core', 'W': 36, 'n_min': 10, 'proxy': 'reach2'} N=63 A_latepre=0.000 A_post=0.087 delta=0.087 B=150
+[01:17:56] [36/36] {'credit': 'R-core', 'W': 36, 'n_min': 10, 'proxy': 'indeg'} N=63 A_latepre=0.000 A_post=0.009 delta=0.009 B=150
+[01:17:56] wrote /scratch/$USER/codersq/impact/estimates_v2_posthoc/aging_clock_real_discovery.json (36 cells)
+AGING_CONTROLS_RUN_DONE
+=== aging-controls done Mon Jul 20 01:17:56 +04 2026 ===

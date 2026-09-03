@@ -1,0 +1,5 @@
+=== convergent half=discovery start Mon Jul 20 01:02:10 +04 2026 on cn111 ===
+[01:02:12] RUNNING convergent half=discovery cell={'credit': 'R-share', 'W': 60, 'n_min': 5, 'proxy': 'reach2'} parquet=/scratch/$USER/codersq/impact/joined/work_reach_v2.parquet
+[01:07:15] wrote /scratch/$USER/codersq/impact/estimates_v2_posthoc/convergent_discovery.json n_reach2=14,091 n_indeg=14,091 n_intersection=14,091 rho=0.978745191057776
+CONVERGENT_RUN_DONE
+=== convergent done Mon Jul 20 01:07:16 +04 2026 ===

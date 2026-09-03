@@ -1,0 +1,90 @@
+=== estimators half=discovery grid=full start Sat Jul 11 23:30:07 +04 2026 on cn099 ===
+[23:30:09] contributors total=266,251  discovery=132,897  holdout=133,354
+[23:30:09] RUNNING HALF = discovery  (grid=full)
+[23:32:50] [1/72] {'credit': 'R-share', 'W': 24, 'n_min': 3, 'proxy': 'reach2'} N=11,048 fz=0.59 | C1 meanP=0.560 vs null 0.589 perm_p=0.0006662225183211193 | C2 A=0.278 ratio=0.34 stat=True verdict=True
+[23:35:30] [2/72] {'credit': 'R-share', 'W': 24, 'n_min': 3, 'proxy': 'indeg'} N=11,048 fz=0.59 | C1 meanP=0.557 vs null 0.589 perm_p=0.0006662225183211193 | C2 A=0.195 ratio=0.09 stat=True verdict=False
+[23:37:26] [3/72] {'credit': 'R-share', 'W': 24, 'n_min': 5, 'proxy': 'reach2'} N=6,897 fz=0.58 | C1 meanP=0.530 vs null 0.561 perm_p=0.0006662225183211193 | C2 A=0.268 ratio=0.14 stat=True verdict=False
+[23:39:21] [4/72] {'credit': 'R-share', 'W': 24, 'n_min': 5, 'proxy': 'indeg'} N=6,897 fz=0.58 | C1 meanP=0.525 vs null 0.561 perm_p=0.0006662225183211193 | C2 A=0.188 ratio=0.34 stat=True verdict=True
+[23:40:42] [5/72] {'credit': 'R-share', 'W': 24, 'n_min': 10, 'proxy': 'reach2'} N=2,563 fz=0.54 | C1 meanP=0.498 vs null 0.533 perm_p=0.0006662225183211193 | C2 A=0.253 ratio=0.48 stat=True verdict=True
+[23:42:05] [6/72] {'credit': 'R-share', 'W': 24, 'n_min': 10, 'proxy': 'indeg'} N=2,563 fz=0.54 | C1 meanP=0.486 vs null 0.533 perm_p=0.0006662225183211193 | C2 A=0.173 ratio=0.49 stat=True verdict=True
+[23:44:28] [7/72] {'credit': 'R-share', 'W': 36, 'n_min': 3, 'proxy': 'reach2'} N=12,608 fz=0.60 | C1 meanP=0.566 vs null 0.589 perm_p=0.0006662225183211193 | C2 A=0.276 ratio=0.46 stat=True verdict=True
+[23:46:53] [8/72] {'credit': 'R-share', 'W': 36, 'n_min': 3, 'proxy': 'indeg'} N=12,608 fz=0.60 | C1 meanP=0.562 vs null 0.589 perm_p=0.0006662225183211193 | C2 A=0.197 ratio=0.11 stat=True verdict=False
+[23:48:54] [9/72] {'credit': 'R-share', 'W': 36, 'n_min': 5, 'proxy': 'reach2'} N=7,901 fz=0.59 | C1 meanP=0.538 vs null 0.561 perm_p=0.0006662225183211193 | C2 A=0.267 ratio=0.16 stat=True verdict=False
+[23:50:58] [10/72] {'credit': 'R-share', 'W': 36, 'n_min': 5, 'proxy': 'indeg'} N=7,901 fz=0.59 | C1 meanP=0.532 vs null 0.561 perm_p=0.0006662225183211193 | C2 A=0.192 ratio=0.34 stat=True verdict=True
+[23:52:22] [11/72] {'credit': 'R-share', 'W': 36, 'n_min': 10, 'proxy': 'reach2'} N=2,943 fz=0.56 | C1 meanP=0.506 vs null 0.533 perm_p=0.0006662225183211193 | C2 A=0.257 ratio=0.53 stat=True verdict=True
+[23:53:44] [12/72] {'credit': 'R-share', 'W': 36, 'n_min': 10, 'proxy': 'indeg'} N=2,943 fz=0.56 | C1 meanP=0.496 vs null 0.533 perm_p=0.0006662225183211193 | C2 A=0.182 ratio=0.52 stat=True verdict=True
+[23:56:01] [13/72] {'credit': 'R-share', 'W': 60, 'n_min': 3, 'proxy': 'reach2'} N=12,501 fz=0.56 | C1 meanP=0.586 vs null 0.589 perm_p=0.0006662225183211193 | C2 A=0.251 ratio=0.24 stat=False verdict=False
+[23:58:19] [14/72] {'credit': 'R-share', 'W': 60, 'n_min': 3, 'proxy': 'indeg'} N=12,501 fz=0.56 | C1 meanP=0.585 vs null 0.589 perm_p=0.0006662225183211193 | C2 A=0.184 ratio=0.16 stat=True verdict=False
+[00:02:08] [15/72] {'credit': 'R-share', 'W': 60, 'n_min': 5, 'proxy': 'reach2'} N=7,952 fz=0.55 | C1 meanP=0.555 vs null 0.561 perm_p=0.0001999600079984003 | C2 A=0.243 ratio=0.12 stat=False verdict=False
+[00:04:07] [16/72] {'credit': 'R-share', 'W': 60, 'n_min': 5, 'proxy': 'indeg'} N=7,952 fz=0.55 | C1 meanP=0.552 vs null 0.561 perm_p=0.0006662225183211193 | C2 A=0.178 ratio=0.41 stat=True verdict=True
+[00:05:27] [17/72] {'credit': 'R-share', 'W': 60, 'n_min': 10, 'proxy': 'reach2'} N=2,971 fz=0.52 | C1 meanP=0.516 vs null 0.533 perm_p=0.0006662225183211193 | C2 A=0.235 ratio=0.57 stat=True verdict=True
+[00:06:47] [18/72] {'credit': 'R-share', 'W': 60, 'n_min': 10, 'proxy': 'indeg'} N=2,971 fz=0.52 | C1 meanP=0.509 vs null 0.533 perm_p=0.0006662225183211193 | C2 A=0.171 ratio=0.51 stat=True verdict=True
+[00:06:47] [19/72] {'credit': 'R-share', 'W': 120, 'n_min': 3, 'proxy': 'reach2'} -> only 0 contributors, SKIP
+[00:06:47] [20/72] {'credit': 'R-share', 'W': 120, 'n_min': 3, 'proxy': 'indeg'} -> only 0 contributors, SKIP
+[00:06:47] [21/72] {'credit': 'R-share', 'W': 120, 'n_min': 5, 'proxy': 'reach2'} -> only 0 contributors, SKIP
+[00:06:47] [22/72] {'credit': 'R-share', 'W': 120, 'n_min': 5, 'proxy': 'indeg'} -> only 0 contributors, SKIP
+[00:06:47] [23/72] {'credit': 'R-share', 'W': 120, 'n_min': 10, 'proxy': 'reach2'} -> only 0 contributors, SKIP
+[00:06:47] [24/72] {'credit': 'R-share', 'W': 120, 'n_min': 10, 'proxy': 'indeg'} -> only 0 contributors, SKIP
+[00:08:41] [25/72] {'credit': 'R-lead', 'W': 24, 'n_min': 3, 'proxy': 'reach2'} N=9,368 fz=0.60 | C1 meanP=0.559 vs null 0.587 perm_p=0.0006662225183211193 | C2 A=0.204 ratio=0.10 stat=True verdict=False
+[00:10:35] [26/72] {'credit': 'R-lead', 'W': 24, 'n_min': 3, 'proxy': 'indeg'} N=9,368 fz=0.60 | C1 meanP=0.556 vs null 0.587 perm_p=0.0006662225183211193 | C2 A=0.133 ratio=0.43 stat=True verdict=True
+[00:12:14] [27/72] {'credit': 'R-lead', 'W': 24, 'n_min': 5, 'proxy': 'reach2'} N=5,883 fz=0.59 | C1 meanP=0.531 vs null 0.560 perm_p=0.0006662225183211193 | C2 A=0.208 ratio=0.29 stat=True verdict=True
+[00:13:54] [28/72] {'credit': 'R-lead', 'W': 24, 'n_min': 5, 'proxy': 'indeg'} N=5,883 fz=0.59 | C1 meanP=0.523 vs null 0.560 perm_p=0.0006662225183211193 | C2 A=0.136 ratio=0.44 stat=True verdict=True
+[00:15:05] [29/72] {'credit': 'R-lead', 'W': 24, 'n_min': 10, 'proxy': 'reach2'} N=2,212 fz=0.54 | C1 meanP=0.498 vs null 0.533 perm_p=0.0006662225183211193 | C2 A=0.213 ratio=0.51 stat=True verdict=True
+[00:16:16] [30/72] {'credit': 'R-lead', 'W': 24, 'n_min': 10, 'proxy': 'indeg'} N=2,212 fz=0.54 | C1 meanP=0.491 vs null 0.533 perm_p=0.0006662225183211193 | C2 A=0.139 ratio=0.46 stat=True verdict=True
+[00:18:21] [31/72] {'credit': 'R-lead', 'W': 36, 'n_min': 3, 'proxy': 'reach2'} N=10,738 fz=0.61 | C1 meanP=0.565 vs null 0.587 perm_p=0.0006662225183211193 | C2 A=0.205 ratio=0.12 stat=True verdict=False
+[00:20:27] [32/72] {'credit': 'R-lead', 'W': 36, 'n_min': 3, 'proxy': 'indeg'} N=10,738 fz=0.61 | C1 meanP=0.562 vs null 0.587 perm_p=0.0006662225183211193 | C2 A=0.137 ratio=0.46 stat=True verdict=True
+[00:22:16] [33/72] {'credit': 'R-lead', 'W': 36, 'n_min': 5, 'proxy': 'reach2'} N=6,721 fz=0.60 | C1 meanP=0.535 vs null 0.560 perm_p=0.0006662225183211193 | C2 A=0.211 ratio=0.27 stat=True verdict=True
+[00:24:02] [34/72] {'credit': 'R-lead', 'W': 36, 'n_min': 5, 'proxy': 'indeg'} N=6,721 fz=0.60 | C1 meanP=0.533 vs null 0.560 perm_p=0.0006662225183211193 | C2 A=0.142 ratio=0.46 stat=True verdict=True
+[00:25:16] [35/72] {'credit': 'R-lead', 'W': 36, 'n_min': 10, 'proxy': 'reach2'} N=2,524 fz=0.56 | C1 meanP=0.508 vs null 0.533 perm_p=0.0006662225183211193 | C2 A=0.220 ratio=0.55 stat=True verdict=True
+[00:26:30] [36/72] {'credit': 'R-lead', 'W': 36, 'n_min': 10, 'proxy': 'indeg'} N=2,524 fz=0.56 | C1 meanP=0.507 vs null 0.533 perm_p=0.0006662225183211193 | C2 A=0.147 ratio=0.50 stat=True verdict=True
+[00:28:29] [37/72] {'credit': 'R-lead', 'W': 60, 'n_min': 3, 'proxy': 'reach2'} N=10,691 fz=0.58 | C1 meanP=0.583 vs null 0.588 perm_p=0.0006662225183211193 | C2 A=0.192 ratio=0.11 stat=True verdict=False
+[00:30:27] [38/72] {'credit': 'R-lead', 'W': 60, 'n_min': 3, 'proxy': 'indeg'} N=10,691 fz=0.58 | C1 meanP=0.581 vs null 0.587 perm_p=0.0006662225183211193 | C2 A=0.134 ratio=0.43 stat=True verdict=True
+[00:32:09] [39/72] {'credit': 'R-lead', 'W': 60, 'n_min': 5, 'proxy': 'reach2'} N=6,804 fz=0.56 | C1 meanP=0.554 vs null 0.560 perm_p=0.0006662225183211193 | C2 A=0.196 ratio=0.31 stat=True verdict=True
+[00:33:51] [40/72] {'credit': 'R-lead', 'W': 60, 'n_min': 5, 'proxy': 'indeg'} N=6,804 fz=0.56 | C1 meanP=0.552 vs null 0.560 perm_p=0.0006662225183211193 | C2 A=0.137 ratio=0.45 stat=True verdict=True
+[00:35:00] [41/72] {'credit': 'R-lead', 'W': 60, 'n_min': 10, 'proxy': 'reach2'} N=2,558 fz=0.53 | C1 meanP=0.513 vs null 0.533 perm_p=0.0006662225183211193 | C2 A=0.204 ratio=0.57 stat=True verdict=True
+[00:36:09] [42/72] {'credit': 'R-lead', 'W': 60, 'n_min': 10, 'proxy': 'indeg'} N=2,558 fz=0.53 | C1 meanP=0.511 vs null 0.533 perm_p=0.0006662225183211193 | C2 A=0.144 ratio=0.49 stat=True verdict=True
+[00:36:09] [43/72] {'credit': 'R-lead', 'W': 120, 'n_min': 3, 'proxy': 'reach2'} -> only 0 contributors, SKIP
+[00:36:09] [44/72] {'credit': 'R-lead', 'W': 120, 'n_min': 3, 'proxy': 'indeg'} -> only 0 contributors, SKIP
+[00:36:09] [45/72] {'credit': 'R-lead', 'W': 120, 'n_min': 5, 'proxy': 'reach2'} -> only 0 contributors, SKIP
+[00:36:09] [46/72] {'credit': 'R-lead', 'W': 120, 'n_min': 5, 'proxy': 'indeg'} -> only 0 contributors, SKIP
+[00:36:10] [47/72] {'credit': 'R-lead', 'W': 120, 'n_min': 10, 'proxy': 'reach2'} -> only 0 contributors, SKIP
+[00:36:10] [48/72] {'credit': 'R-lead', 'W': 120, 'n_min': 10, 'proxy': 'indeg'} -> only 0 contributors, SKIP
+[00:38:21] [49/72] {'credit': 'R-core', 'W': 24, 'n_min': 3, 'proxy': 'reach2'} N=11,161 fz=0.58 | C1 meanP=0.573 vs null 0.590 perm_p=0.0006662225183211193 | C2 A=0.129 ratio=0.33 stat=True verdict=True
+[00:40:34] [50/72] {'credit': 'R-core', 'W': 24, 'n_min': 3, 'proxy': 'indeg'} N=11,161 fz=0.58 | C1 meanP=0.570 vs null 0.590 perm_p=0.0006662225183211193 | C2 A=0.075 ratio=0.35 stat=True verdict=False
+[00:42:28] [51/72] {'credit': 'R-core', 'W': 24, 'n_min': 5, 'proxy': 'reach2'} N=6,919 fz=0.57 | C1 meanP=0.543 vs null 0.561 perm_p=0.0006662225183211193 | C2 A=0.141 ratio=0.35 stat=True verdict=True
+[00:44:21] [52/72] {'credit': 'R-core', 'W': 24, 'n_min': 5, 'proxy': 'indeg'} N=6,919 fz=0.57 | C1 meanP=0.542 vs null 0.561 perm_p=0.0006662225183211193 | C2 A=0.083 ratio=0.37 stat=True verdict=False
+[00:45:41] [53/72] {'credit': 'R-core', 'W': 24, 'n_min': 10, 'proxy': 'reach2'} N=2,564 fz=0.54 | C1 meanP=0.509 vs null 0.533 perm_p=0.0006662225183211193 | C2 A=0.163 ratio=0.48 stat=True verdict=True
+[00:47:01] [54/72] {'credit': 'R-core', 'W': 24, 'n_min': 10, 'proxy': 'indeg'} N=2,564 fz=0.54 | C1 meanP=0.507 vs null 0.533 perm_p=0.0006662225183211193 | C2 A=0.097 ratio=0.42 stat=True verdict=False
+[00:49:25] [55/72] {'credit': 'R-core', 'W': 36, 'n_min': 3, 'proxy': 'reach2'} N=12,723 fz=0.59 | C1 meanP=0.577 vs null 0.590 perm_p=0.0006662225183211193 | C2 A=0.133 ratio=0.33 stat=True verdict=True
+[00:51:49] [56/72] {'credit': 'R-core', 'W': 36, 'n_min': 3, 'proxy': 'indeg'} N=12,723 fz=0.59 | C1 meanP=0.576 vs null 0.590 perm_p=0.0006662225183211193 | C2 A=0.083 ratio=0.37 stat=True verdict=False
+[00:53:52] [57/72] {'credit': 'R-core', 'W': 36, 'n_min': 5, 'proxy': 'reach2'} N=7,928 fz=0.58 | C1 meanP=0.548 vs null 0.561 perm_p=0.0006662225183211193 | C2 A=0.145 ratio=0.35 stat=True verdict=True
+[00:55:54] [58/72] {'credit': 'R-core', 'W': 36, 'n_min': 5, 'proxy': 'indeg'} N=7,928 fz=0.58 | C1 meanP=0.547 vs null 0.561 perm_p=0.0006662225183211193 | C2 A=0.091 ratio=0.38 stat=True verdict=False
+[00:57:21] [59/72] {'credit': 'R-core', 'W': 36, 'n_min': 10, 'proxy': 'reach2'} N=2,938 fz=0.55 | C1 meanP=0.520 vs null 0.533 perm_p=0.0006662225183211193 | C2 A=0.169 ratio=0.50 stat=True verdict=True
+[00:58:51] [60/72] {'credit': 'R-core', 'W': 36, 'n_min': 10, 'proxy': 'indeg'} N=2,938 fz=0.55 | C1 meanP=0.520 vs null 0.533 perm_p=0.0006662225183211193 | C2 A=0.108 ratio=0.44 stat=True verdict=True
+[01:01:10] [61/72] {'credit': 'R-core', 'W': 60, 'n_min': 3, 'proxy': 'reach2'} N=12,606 fz=0.56 | C1 meanP=0.594 vs null 0.590 perm_p=0.0006662225183211193 | C2 A=0.122 ratio=0.41 stat=True verdict=True
+[01:03:28] [62/72] {'credit': 'R-core', 'W': 60, 'n_min': 3, 'proxy': 'indeg'} N=12,606 fz=0.56 | C1 meanP=0.595 vs null 0.590 perm_p=0.0006662225183211193 | C2 A=0.077 ratio=0.34 stat=True verdict=False
+[01:05:27] [63/72] {'credit': 'R-core', 'W': 60, 'n_min': 5, 'proxy': 'reach2'} N=7,969 fz=0.55 | C1 meanP=0.563 vs null 0.561 perm_p=0.0006662225183211193 | C2 A=0.130 ratio=0.43 stat=True verdict=True
+[01:07:28] [64/72] {'credit': 'R-core', 'W': 60, 'n_min': 5, 'proxy': 'indeg'} N=7,969 fz=0.55 | C1 meanP=0.565 vs null 0.561 perm_p=0.0006662225183211193 | C2 A=0.083 ratio=0.37 stat=True verdict=False
+[01:08:51] [65/72] {'credit': 'R-core', 'W': 60, 'n_min': 10, 'proxy': 'reach2'} N=2,950 fz=0.52 | C1 meanP=0.528 vs null 0.533 perm_p=0.0006662225183211193 | C2 A=0.156 ratio=0.53 stat=True verdict=True
+[01:10:13] [66/72] {'credit': 'R-core', 'W': 60, 'n_min': 10, 'proxy': 'indeg'} N=2,950 fz=0.52 | C1 meanP=0.528 vs null 0.533 perm_p=0.0006662225183211193 | C2 A=0.102 ratio=0.44 stat=True verdict=True
+[01:10:13] [67/72] {'credit': 'R-core', 'W': 120, 'n_min': 3, 'proxy': 'reach2'} -> only 0 contributors, SKIP
+[01:10:13] [68/72] {'credit': 'R-core', 'W': 120, 'n_min': 3, 'proxy': 'indeg'} -> only 0 contributors, SKIP
+[01:10:13] [69/72] {'credit': 'R-core', 'W': 120, 'n_min': 5, 'proxy': 'reach2'} -> only 0 contributors, SKIP
+[01:10:13] [70/72] {'credit': 'R-core', 'W': 120, 'n_min': 5, 'proxy': 'indeg'} -> only 0 contributors, SKIP
+[01:10:13] [71/72] {'credit': 'R-core', 'W': 120, 'n_min': 10, 'proxy': 'reach2'} -> only 0 contributors, SKIP
+[01:10:13] [72/72] {'credit': 'R-core', 'W': 120, 'n_min': 10, 'proxy': 'indeg'} -> only 0 contributors, SKIP
+[01:10:13] wrote /scratch/$USER/codersq/impact/estimates/estimates_discovery_full.json  (72 cells)
+
+========================================================================
+HEADLINE CANDIDATE (discovery, primary spec {'credit': 'R-share', 'W': 60, 'n_min': 5, 'proxy': 'reach2'}):
+  N=7,952 contributors  frac_zero=0.554
+  C1 random-impact: mean_P=0.555 (null 0.561)  chi2_p=1.47e-06  perm_p=0.0001999600079984003  TVD=0.029
+     decile counts obs=[251, 758, 868, 519, 646, 1001, 563, 440, 957, 1172]
+                   exp=[187.6, 694.7, 849.6, 544.2, 694.1, 1054.7, 592.5, 484.4, 963.3, 1109.9]
+  C2 stable-Φ: A=0.243 (CI [0.19788861057154813, 0.29645435424856237])  B=1.720  A/(A+B)=0.12  rho=0.02
+     growth_ratio=1.51 stationary=False  VERDICT stable_Q=False
+  split-half r=0.356  sigma_q2=0.084  sigma_p2=0.724
+========================================================================
+
+ESTIMATOR_RUN_DONE
+=== estimators done Sun Jul 12 01:10:14 +04 2026 ===

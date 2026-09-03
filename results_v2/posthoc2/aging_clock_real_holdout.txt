@@ -1,0 +1,44 @@
+=== aging-controls analysis=clock mode=real half=holdout start Mon Jul 20 01:11:14 +04 2026 on cn125 ===
+[01:14:51] contributors total=908,417 discovery=454,515 holdout=453,902
+[01:14:51] RUNNING aging analysis=clock mode=real half=holdout parquet=/scratch/$USER/codersq/impact/joined/work_reach_v2.parquet
+[01:15:00] [1/36] {'credit': 'R-share', 'W': 24, 'n_min': 3, 'proxy': 'reach2'} N=642 A_latepre=0.408 A_post=0.376 delta=-0.033 B=150
+[01:15:10] [2/36] {'credit': 'R-share', 'W': 24, 'n_min': 3, 'proxy': 'indeg'} N=642 A_latepre=0.308 A_post=0.279 delta=-0.030 B=150
+[01:15:29] [3/36] {'credit': 'R-share', 'W': 24, 'n_min': 5, 'proxy': 'reach2'} N=417 A_latepre=0.381 A_post=0.381 delta=0.000 B=400
+[01:15:37] [4/36] {'credit': 'R-share', 'W': 24, 'n_min': 5, 'proxy': 'indeg'} N=417 A_latepre=0.288 A_post=0.285 delta=-0.003 B=150
+[01:15:41] [5/36] {'credit': 'R-share', 'W': 24, 'n_min': 10, 'proxy': 'reach2'} N=143 A_latepre=0.277 A_post=0.329 delta=0.052 B=150
+[01:15:46] [6/36] {'credit': 'R-share', 'W': 24, 'n_min': 10, 'proxy': 'indeg'} N=143 A_latepre=0.221 A_post=0.255 delta=0.034 B=150
+[01:15:50] [7/36] {'credit': 'R-share', 'W': 36, 'n_min': 3, 'proxy': 'reach2'} N=257 A_latepre=0.393 A_post=0.332 delta=-0.061 B=150
+[01:15:54] [8/36] {'credit': 'R-share', 'W': 36, 'n_min': 3, 'proxy': 'indeg'} N=257 A_latepre=0.356 A_post=0.000 delta=-0.356 B=150
+[01:15:57] [9/36] {'credit': 'R-share', 'W': 36, 'n_min': 5, 'proxy': 'reach2'} N=180 A_latepre=0.361 A_post=0.279 delta=-0.082 B=150
+[01:16:01] [10/36] {'credit': 'R-share', 'W': 36, 'n_min': 5, 'proxy': 'indeg'} N=180 A_latepre=0.327 A_post=0.000 delta=-0.327 B=150
+[01:16:03] [11/36] {'credit': 'R-share', 'W': 36, 'n_min': 10, 'proxy': 'reach2'} N=78 A_latepre=0.238 A_post=0.016 delta=-0.222 B=150
+[01:16:06] [12/36] {'credit': 'R-share', 'W': 36, 'n_min': 10, 'proxy': 'indeg'} N=78 A_latepre=0.228 A_post=0.000 delta=-0.228 B=150
+[01:16:15] [13/36] {'credit': 'R-lead', 'W': 24, 'n_min': 3, 'proxy': 'reach2'} N=572 A_latepre=0.606 A_post=0.418 delta=-0.188 B=150
+[01:16:24] [14/36] {'credit': 'R-lead', 'W': 24, 'n_min': 3, 'proxy': 'indeg'} N=572 A_latepre=0.414 A_post=0.289 delta=-0.125 B=150
+[01:16:31] [15/36] {'credit': 'R-lead', 'W': 24, 'n_min': 5, 'proxy': 'reach2'} N=372 A_latepre=0.627 A_post=0.441 delta=-0.186 B=150
+[01:16:38] [16/36] {'credit': 'R-lead', 'W': 24, 'n_min': 5, 'proxy': 'indeg'} N=372 A_latepre=0.439 A_post=0.309 delta=-0.130 B=150
+[01:16:42] [17/36] {'credit': 'R-lead', 'W': 24, 'n_min': 10, 'proxy': 'reach2'} N=136 A_latepre=0.515 A_post=0.412 delta=-0.103 B=150
+[01:16:47] [18/36] {'credit': 'R-lead', 'W': 24, 'n_min': 10, 'proxy': 'indeg'} N=136 A_latepre=0.386 A_post=0.295 delta=-0.091 B=150
+[01:16:51] [19/36] {'credit': 'R-lead', 'W': 36, 'n_min': 3, 'proxy': 'reach2'} N=225 A_latepre=0.766 A_post=0.054 delta=-0.712 B=150
+[01:16:54] [20/36] {'credit': 'R-lead', 'W': 36, 'n_min': 3, 'proxy': 'indeg'} N=225 A_latepre=0.694 A_post=0.000 delta=-0.694 B=150
+/home/$USER/codersq/impact/qmodel.py:252: RuntimeWarning: invalid value encountered in scalar divide
+  ac = np.array([(num[lag] / cnt[lag]) / var for lag in range(max_lag + 1)])
+[01:16:57] [21/36] {'credit': 'R-lead', 'W': 36, 'n_min': 5, 'proxy': 'reach2'} N=159 A_latepre=0.673 A_post=0.008 delta=-0.665 B=150
+[01:17:00] [22/36] {'credit': 'R-lead', 'W': 36, 'n_min': 5, 'proxy': 'indeg'} N=159 A_latepre=0.635 A_post=0.013 delta=-0.622 B=150
+[01:17:03] [23/36] {'credit': 'R-lead', 'W': 36, 'n_min': 10, 'proxy': 'reach2'} N=76 A_latepre=0.300 A_post=0.000 delta=-0.300 B=150
+[01:17:05] [24/36] {'credit': 'R-lead', 'W': 36, 'n_min': 10, 'proxy': 'indeg'} N=76 A_latepre=0.392 A_post=0.000 delta=-0.392 B=150
+[01:17:15] [25/36] {'credit': 'R-core', 'W': 24, 'n_min': 3, 'proxy': 'reach2'} N=643 A_latepre=0.526 A_post=0.367 delta=-0.159 B=150
+[01:17:25] [26/36] {'credit': 'R-core', 'W': 24, 'n_min': 3, 'proxy': 'indeg'} N=643 A_latepre=0.346 A_post=0.255 delta=-0.090 B=150
+[01:17:32] [27/36] {'credit': 'R-core', 'W': 24, 'n_min': 5, 'proxy': 'reach2'} N=409 A_latepre=0.549 A_post=0.431 delta=-0.119 B=150
+[01:17:40] [28/36] {'credit': 'R-core', 'W': 24, 'n_min': 5, 'proxy': 'indeg'} N=409 A_latepre=0.371 A_post=0.304 delta=-0.067 B=150
+[01:17:45] [29/36] {'credit': 'R-core', 'W': 24, 'n_min': 10, 'proxy': 'reach2'} N=144 A_latepre=0.505 A_post=0.416 delta=-0.089 B=150
+[01:17:50] [30/36] {'credit': 'R-core', 'W': 24, 'n_min': 10, 'proxy': 'indeg'} N=144 A_latepre=0.378 A_post=0.306 delta=-0.072 B=150
+[01:17:54] [31/36] {'credit': 'R-core', 'W': 36, 'n_min': 3, 'proxy': 'reach2'} N=250 A_latepre=0.867 A_post=0.419 delta=-0.448 B=150
+[01:17:58] [32/36] {'credit': 'R-core', 'W': 36, 'n_min': 3, 'proxy': 'indeg'} N=250 A_latepre=0.649 A_post=0.037 delta=-0.611 B=150
+[01:18:01] [33/36] {'credit': 'R-core', 'W': 36, 'n_min': 5, 'proxy': 'reach2'} N=173 A_latepre=0.868 A_post=0.599 delta=-0.269 B=150
+[01:18:04] [34/36] {'credit': 'R-core', 'W': 36, 'n_min': 5, 'proxy': 'indeg'} N=173 A_latepre=0.638 A_post=0.132 delta=-0.506 B=150
+[01:18:07] [35/36] {'credit': 'R-core', 'W': 36, 'n_min': 10, 'proxy': 'reach2'} N=79 A_latepre=0.731 A_post=0.296 delta=-0.435 B=150
+[01:18:10] [36/36] {'credit': 'R-core', 'W': 36, 'n_min': 10, 'proxy': 'indeg'} N=79 A_latepre=0.597 A_post=0.001 delta=-0.596 B=150
+[01:18:10] wrote /scratch/$USER/codersq/impact/estimates_v2_posthoc/aging_clock_real_holdout.json (36 cells)
+AGING_CONTROLS_RUN_DONE
+=== aging-controls done Mon Jul 20 01:18:10 +04 2026 ===

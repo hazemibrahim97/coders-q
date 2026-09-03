@@ -1,0 +1,12 @@
+region,truth_n,fires,correct,fires_botpred,fires_nonbot,correct_nonbot
+Central Asia,1,1,0,1,0,0
+East Asia,291,154,112,42,112,112
+Europe,1793,838,518,315,523,518
+Latin America & Caribbean,271,164,130,34,130,130
+MENA,98,52,46,6,46,46
+NO COUNTRY,562,275,175,98,177,175
+Northern America,1310,653,424,223,430,424
+Oceania,111,54,34,20,34,34
+South Asia,236,119,98,19,100,98
+Southeast Asia,91,56,47,9,47,47
+Sub-Saharan Africa,33,15,14,1,14,14

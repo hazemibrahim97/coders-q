@@ -1,0 +1,52 @@
+{
+  "analysis": "convergent_validity",
+  "half": "holdout",
+  "seed": 20260719,
+  "split_salt": "codersq-2026-07-11-discovery-holdout-v1",
+  "spec_note_path": "prereg/POSTHOC-NOTE-2-aging-controls-and-convergent-validity.md",
+  "post_unsealing_label": true,
+  "unseal_attestation_date": "2026-07-12",
+  "panel_path": "/scratch/$USER/codersq/impact/joined/work_reach_v2.parquet",
+  "main_grid_primary_cell": {
+    "credit": "R-share",
+    "W": 60,
+    "n_min": 5
+  },
+  "proxies": [
+    "reach2",
+    "indeg"
+  ],
+  "n_by_proxy": {
+    "reach2": 13957,
+    "indeg": 13957
+  },
+  "diagnostics_by_proxy": {
+    "reach2": {
+      "n_contributors": 13957,
+      "n_works": 152256,
+      "frac_zero": 0.5622438524590164
+    },
+    "indeg": {
+      "n_contributors": 13957,
+      "n_works": 152256,
+      "frac_zero": 0.5622438524590164
+    }
+  },
+  "n_intersection": 13957,
+  "rho": 0.9788033625702526,
+  "p": 0.0,
+  "verdict": "pass: rho >= 0.7 clears the registered convergent-validity bar",
+  "decision_rule": ">=0.7 pass / 0.5-0.7 weak / <0.5 withdraw",
+  "qfit_on_intersection": {
+    "reach2": {
+      "sigma_q2": 0.07563799973881201,
+      "sigma_p2": 0.643720264946509,
+      "nbar_harmonic": 7.826482457646411
+    },
+    "indeg": {
+      "sigma_q2": 0.042263327895662325,
+      "sigma_p2": 0.396710808714932,
+      "nbar_harmonic": 7.826482457646411
+    }
+  }
+}

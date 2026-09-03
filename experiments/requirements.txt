@@ -1,0 +1,4 @@
+# The Coder's Q — pilot harness dependencies (synthetic dry-run only).
+# The dry-run runs offline; these are the sole requirements to reproduce it.
+numpy>=1.24
+scipy>=1.10

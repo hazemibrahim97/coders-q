@@ -1,0 +1,22 @@
+# Individual-level identity data — never publish (aggregate-only ethics rule)
+data/
+g3_validation_rows*.csv
+g3_coverage_rows*.csv
+
+# Manuscript and internal project notes (not part of replication)
+paper/
+figures/
+prereg/*.tex
+/0*.md
+/1*.md
+/ChatGPT_Sol_Review.pdf
+SPEND-PLAN.md
+.claude/
+
+# Junk
+__pycache__/
+.DS_Store
+*.bak
+texput.log
+Rplots.pdf
+prereg/
