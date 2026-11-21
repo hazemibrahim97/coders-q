@@ -1,0 +1,69 @@
+{
+  "analysis": "posthoc3",
+  "variant": "describe",
+  "half": "holdout",
+  "seed": 20261121,
+  "spec_note_path": "prereg/POSTHOC-NOTE-3-camera-ready-robustness.md",
+  "label": "post-unsealing exploratory (post-hoc)",
+  "panel_path": "/scratch/hi387/codersq/impact/joined/work_reach_v2.parquet",
+  "primary_cell": {
+    "credit": "R-share",
+    "W": 60,
+    "n_min": 5,
+    "proxy": "reach2"
+  },
+  "split_salt": "codersq-2026-07-11-discovery-holdout-v1",
+  "describe": {
+    "n_careers": 13957,
+    "n_works": 152256,
+    "works_per_career": {
+      "median": 8.0,
+      "p25": 6.0,
+      "p75": 12.0
+    },
+    "span_months": {
+      "median": 42.0,
+      "p25": 32.0,
+      "p75": 52.0
+    },
+    "first_work_year_share": {
+      "2015-16": 0.7863437701511786,
+      "2017-19": 0.21365622984882138
+    },
+    "share_works_zero_reach": 0.5622438524590164,
+    "credit_share": {
+      "median": 1.0,
+      "p25": 1.0,
+      "p75": 1.0
+    },
+    "top_ecosystems_share_of_works": [
+      [
+        "npm",
+        0.4004768284993695
+      ],
+      [
+        "packagist",
+        0.21517050231189574
+      ],
+      [
+        "go",
+        0.15429277007145858
+      ],
+      [
+        "pypi",
+        0.05283864018495166
+      ],
+      [
+        "maven",
+        0.03732529424127785
+      ],
+      [
+        "other",
+        0.13989596469104665
+      ]
+    ]
+  },
+  "n_contributors": 13957,
+  "n_works": 152256,
+  "frac_zero": 0.5622438524590164
+}

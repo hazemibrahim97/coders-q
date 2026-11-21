@@ -1,0 +1,7 @@
+=== posthoc3 norm_year discovery start Sat Nov 21 05:21:25 +04 2026 on cn051 ===
+[05:21:41] variant=norm_year half=discovery panel=/scratch/hi387/codersq/impact/joined/work_reach_v2.parquet seed=20261121
+[05:23:34] N=14,091 works=153,263
+[05:47:31] C1 meanP=0.613 null=0.563 tvd=0.099 p=0.0001999600079984003 | C2 A=0.293 [0.25638820619411434, 0.3296234906880447] B=0.291 rho=0.24 ratio=0.502 {'n_draws': 1000, 'ci95': [0.25344558919231674, 0.5718071511835923], 'share_gt_0p20': 0.982, 'median': 0.5008031561641872}
+[05:47:31] wrote /scratch/hi387/codersq/impact/estimates_v2_posthoc3/posthoc3_norm_year_discovery.json
+POSTHOC3_DONE
+=== posthoc3 done Sat Nov 21 05:47:32 +04 2026 ===

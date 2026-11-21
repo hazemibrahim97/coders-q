@@ -1,0 +1,7 @@
+=== posthoc3 nohole holdout start Sat Nov 21 04:45:22 +04 2026 on cn105 ===
+[04:45:35] variant=nohole half=holdout panel=/scratch/hi387/codersq/impact/joined/work_reach_v2_nohole.parquet seed=20261121
+[04:47:02] N=3,781 works=39,935
+[04:53:10] C1 meanP=0.543 null=0.563 tvd=0.042 p=0.0001999600079984003 | C2 A=0.267 [0.21471069564687884, 0.3155576932256959] B=0.504 rho=0.02 ratio=0.346 {'n_draws': 1000, 'ci95': [0.14497936139289974, 1.0], 'share_gt_0p20': 0.905, 'median': 0.5314428598522383}
+[04:53:10] wrote /scratch/hi387/codersq/impact/estimates_v2_posthoc3/posthoc3_nohole_holdout.json
+POSTHOC3_DONE
+=== posthoc3 done Sat Nov 21 04:53:11 +04 2026 ===

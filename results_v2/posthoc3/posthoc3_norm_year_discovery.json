@@ -1,0 +1,93 @@
+{
+  "analysis": "posthoc3",
+  "variant": "norm_year",
+  "half": "discovery",
+  "seed": 20261121,
+  "spec_note_path": "prereg/POSTHOC-NOTE-3-camera-ready-robustness.md",
+  "label": "post-unsealing exploratory (post-hoc)",
+  "panel_path": "/scratch/hi387/codersq/impact/joined/work_reach_v2.parquet",
+  "primary_cell": {
+    "credit": "R-share",
+    "W": 60,
+    "n_min": 5,
+    "proxy": "reach2"
+  },
+  "split_salt": "codersq-2026-07-11-discovery-holdout-v1",
+  "n_contributors": 14091,
+  "n_works": 153263,
+  "frac_zero": 0.5630321734534754,
+  "n_used_C1": 13294,
+  "n_dropped_alltie_C1": 797,
+  "C1": {
+    "mean_P": 0.613216665870348,
+    "null_mean_P": 0.5629653171254672,
+    "chi2": 876.1416285137318,
+    "df": 9,
+    "chi2_p": 8.540814809301152e-183,
+    "perm_p": 0.0001999600079984003,
+    "tvd": 0.09941151093815176,
+    "counts": [
+      363,
+      1179,
+      1354,
+      795,
+      1082,
+      1653,
+      904,
+      792,
+      1926,
+      3246
+    ],
+    "expected_counts": [
+      317.2,
+      1274.8,
+      1588.5,
+      987.0,
+      1306.9,
+      1977.9,
+      1072.5,
+      873.0,
+      1819.3,
+      2076.9
+    ]
+  },
+  "C2": {
+    "A_stableQ_share": 0.2933755759269432,
+    "B_AR_share": 0.2909211312017005,
+    "ratio_A_over_AB": 0.502100341055578,
+    "rho": 0.24,
+    "A_ci": [
+      0.25638820619411434,
+      0.3296234906880447
+    ],
+    "growth_ratio": 1.3229849496231396,
+    "stationary": true,
+    "verdict_stable_Q": true,
+    "autocorr_lag1to8": [
+      0.3627,
+      0.3131,
+      0.2957,
+      0.2827,
+      0.2931,
+      0.2871,
+      0.2947,
+      0.3096
+    ],
+    "autocorr_slope": -0.00570605373235262
+  },
+  "qfit": {
+    "sigma_q2": 0.1627112358640483,
+    "sigma_p2": 0.7322808955807069,
+    "nbar_harmonic": 7.806709249559683
+  },
+  "split_half_r": 0.4736727456804292,
+  "ratio_boot": {
+    "n_draws": 1000,
+    "ci95": [
+      0.25344558919231674,
+      0.5718071511835923
+    ],
+    "share_gt_0p20": 0.982,
+    "median": 0.5008031561641872
+  }
+}

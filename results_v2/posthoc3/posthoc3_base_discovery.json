@@ -1,0 +1,99 @@
+{
+  "analysis": "posthoc3",
+  "variant": "base",
+  "half": "discovery",
+  "seed": 20261121,
+  "spec_note_path": "prereg/POSTHOC-NOTE-3-camera-ready-robustness.md",
+  "label": "post-unsealing exploratory (post-hoc)",
+  "panel_path": "/scratch/hi387/codersq/impact/joined/work_reach_v2.parquet",
+  "primary_cell": {
+    "credit": "R-share",
+    "W": 60,
+    "n_min": 5,
+    "proxy": "reach2"
+  },
+  "split_salt": "codersq-2026-07-11-discovery-holdout-v1",
+  "median_zero": {
+    "n_cells": 242,
+    "share_cells_med0": 0.8636363636363636,
+    "n_cell_works": 515430,
+    "share_cell_works_med0": 0.7576935762373164
+  },
+  "n_contributors": 14091,
+  "n_works": 153263,
+  "frac_zero": 0.5630321734534754,
+  "n_used_C1": 12270,
+  "n_dropped_alltie_C1": 1821,
+  "C1": {
+    "mean_P": 0.5474544305001944,
+    "null_mean_P": 0.561807914305623,
+    "chi2": 63.03012625155037,
+    "df": 9,
+    "chi2_p": 3.480833884471843e-10,
+    "perm_p": 0.0001999600079984003,
+    "tvd": 0.0219813254036252,
+    "counts": [
+      406,
+      1274,
+      1541,
+      921,
+      1191,
+      1796,
+      931,
+      715,
+      1655,
+      1840
+    ],
+    "expected_counts": [
+      309.2,
+      1184.0,
+      1460.5,
+      918.6,
+      1197.9,
+      1810.8,
+      999.3,
+      823.3,
+      1659.8,
+      1906.6
+    ]
+  },
+  "C2": {
+    "A_stableQ_share": 0.254151616169823,
+    "B_AR_share": 1.0915416789603287,
+    "ratio_A_over_AB": 0.1888629579188341,
+    "rho": 0.02,
+    "A_ci": [
+      0.2207268079400138,
+      0.29473721781506523
+    ],
+    "growth_ratio": 1.419089972942432,
+    "stationary": true,
+    "verdict_stable_Q": false,
+    "autocorr_lag1to8": [
+      0.2763,
+      0.2404,
+      0.2389,
+      0.2394,
+      0.2566,
+      0.2524,
+      0.2652,
+      0.2863
+    ],
+    "autocorr_slope": 0.0030005571535944796
+  },
+  "qfit": {
+    "sigma_q2": 0.07782375190946707,
+    "sigma_p2": 0.632643687806637,
+    "nbar_harmonic": 7.806709249559683
+  },
+  "split_half_r": 0.3701319012120855,
+  "ratio_boot": {
+    "n_draws": 1000,
+    "ci95": [
+      0.10363821751894957,
+      0.8402683526667951
+    ],
+    "share_gt_0p20": 0.418,
+    "median": 0.18555541760589606
+  }
+}

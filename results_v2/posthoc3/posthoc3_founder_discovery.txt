@@ -1,0 +1,7 @@
+=== posthoc3 founder discovery start Sat Nov 21 04:45:23 +04 2026 on cn105 ===
+[04:45:35] variant=founder half=discovery panel=/scratch/hi387/codersq/impact/joined/work_reach_v2.parquet seed=20261121
+[04:48:56] N=9,914 works=106,670
+[05:05:48] C1 meanP=0.545 null=0.562 tvd=0.027 p=0.0001999600079984003 | C2 A=0.277 [0.2325263918565966, 0.3244128969599955] B=1.047 rho=0.02 ratio=0.209 {'n_draws': 1000, 'ci95': [0.11288028135804437, 1.0], 'share_gt_0p20': 0.561, 'median': 0.21379502417288276}
+[05:05:48] wrote /scratch/hi387/codersq/impact/estimates_v2_posthoc3/posthoc3_founder_discovery.json
+POSTHOC3_DONE
+=== posthoc3 done Sat Nov 21 05:05:54 +04 2026 ===

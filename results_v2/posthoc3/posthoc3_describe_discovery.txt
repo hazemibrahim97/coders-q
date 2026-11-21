@@ -1,0 +1,6 @@
+=== posthoc3 describe discovery start Sat Nov 21 04:45:23 +04 2026 on cn109 ===
+[04:45:35] variant=describe half=discovery panel=/scratch/hi387/codersq/impact/joined/work_reach_v2.parquet seed=20261121
+[04:47:25] N=14,091 works=153,263
+[04:47:25] wrote /scratch/hi387/codersq/impact/estimates_v2_posthoc3/posthoc3_describe_discovery.json
+POSTHOC3_DONE
+=== posthoc3 done Sat Nov 21 04:47:26 +04 2026 ===

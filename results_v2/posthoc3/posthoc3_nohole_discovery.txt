@@ -1,0 +1,7 @@
+=== posthoc3 nohole discovery start Sat Nov 21 04:45:22 +04 2026 on cn105 ===
+[04:45:35] variant=nohole half=discovery panel=/scratch/hi387/codersq/impact/joined/work_reach_v2_nohole.parquet seed=20261121
+[04:47:02] N=3,784 works=39,290
+[04:53:21] C1 meanP=0.534 null=0.564 tvd=0.050 p=0.0001999600079984003 | C2 A=0.310 [0.24714388157622447, 0.36441511228705814] B=0.000 rho=0.00 ratio=1.000 {'n_draws': 1000, 'ci95': [0.18223987214928983, 1.0], 'share_gt_0p20': 0.953, 'median': 0.933588127895616}
+[04:53:21] wrote /scratch/hi387/codersq/impact/estimates_v2_posthoc3/posthoc3_nohole_discovery.json
+POSTHOC3_DONE
+=== posthoc3 done Sat Nov 21 04:53:23 +04 2026 ===

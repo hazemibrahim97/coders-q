@@ -1,0 +1,7 @@
+=== posthoc3 clean discovery start Sat Nov 21 04:45:22 +04 2026 on cn105 ===
+[04:45:35] variant=clean half=discovery panel=/scratch/hi387/codersq/impact/joined/work_reach_v2_clean.parquet seed=20261121
+[04:47:02] N=3,721 works=38,830
+[04:53:12] C1 meanP=0.537 null=0.563 tvd=0.047 p=0.0001999600079984003 | C2 A=0.310 [0.2445616936551407, 0.37115591238458867] B=0.000 rho=0.00 ratio=1.000 {'n_draws': 1000, 'ci95': [0.15747278408203638, 1.0], 'share_gt_0p20': 0.934, 'median': 0.8134415626639623}
+[04:53:12] wrote /scratch/hi387/codersq/impact/estimates_v2_posthoc3/posthoc3_clean_discovery.json
+POSTHOC3_DONE
+=== posthoc3 done Sat Nov 21 04:53:14 +04 2026 ===

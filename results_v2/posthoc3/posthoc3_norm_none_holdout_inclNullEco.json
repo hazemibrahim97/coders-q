@@ -1,0 +1,93 @@
+{
+  "analysis": "posthoc3",
+  "variant": "norm_none",
+  "half": "holdout",
+  "seed": 20261121,
+  "spec_note_path": "prereg/POSTHOC-NOTE-3-camera-ready-robustness.md",
+  "label": "post-unsealing exploratory (post-hoc)",
+  "panel_path": "/scratch/hi387/codersq/impact/joined/work_reach_v2.parquet",
+  "primary_cell": {
+    "credit": "R-share",
+    "W": 60,
+    "n_min": 5,
+    "proxy": "reach2"
+  },
+  "split_salt": "codersq-2026-07-11-discovery-holdout-v1",
+  "n_contributors": 15916,
+  "n_works": 174499,
+  "frac_zero": 0.6005765076017627,
+  "n_used_C1": 13462,
+  "n_dropped_alltie_C1": 2454,
+  "C1": {
+    "mean_P": 0.6240131886664945,
+    "null_mean_P": 0.5612807462566319,
+    "chi2": 1127.4244730873709,
+    "df": 9,
+    "chi2_p": 5.605872268756928e-237,
+    "perm_p": 0.0001999600079984003,
+    "tvd": 0.11236939692810992,
+    "counts": [
+      366,
+      1136,
+      1282,
+      824,
+      1027,
+      1612,
+      966,
+      846,
+      1985,
+      3418
+    ],
+    "expected_counts": [
+      351.6,
+      1309.4,
+      1582.8,
+      1022.5,
+      1299.2,
+      1980.1,
+      1110.5,
+      901.2,
+      1815.1,
+      2089.5
+    ]
+  },
+  "C2": {
+    "A_stableQ_share": 0.3028363734090159,
+    "B_AR_share": 0.31023750136922795,
+    "ratio_A_over_AB": 0.4939639183264096,
+    "rho": 0.18,
+    "A_ci": [
+      0.2649178993659334,
+      0.3398323326979964
+    ],
+    "growth_ratio": 1.6397195573000571,
+    "stationary": false,
+    "verdict_stable_Q": false,
+    "autocorr_lag1to8": [
+      0.3583,
+      0.3164,
+      0.3008,
+      0.2896,
+      0.2879,
+      0.3057,
+      0.3124,
+      0.3198
+    ],
+    "autocorr_slope": -0.0032926591019874843
+  },
+  "qfit": {
+    "sigma_q2": 0.1465598632482482,
+    "sigma_p2": 0.693145929907455,
+    "nbar_harmonic": 7.855419287931337
+  },
+  "split_half_r": 0.47180016394410207,
+  "ratio_boot": {
+    "n_draws": 1000,
+    "ci95": [
+      0.1394175751864293,
+      0.5916813899207943
+    ],
+    "share_gt_0p20": 0.913,
+    "median": 0.5000712626680996
+  }
+}

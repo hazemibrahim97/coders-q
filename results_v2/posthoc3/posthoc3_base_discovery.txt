@@ -1,0 +1,8 @@
+=== posthoc3 base discovery start Sat Nov 21 04:15:25 +04 2026 on cn053 ===
+[04:15:47] variant=base half=discovery panel=/scratch/hi387/codersq/impact/joined/work_reach_v2.parquet seed=20261121
+[04:19:32] copied builder == frozen builder (exact)
+[04:19:32] N=14,091 works=153,263
+[04:43:22] C1 meanP=0.547 null=0.562 tvd=0.022 p=0.0001999600079984003 | C2 A=0.254 [0.2207268079400138, 0.29473721781506523] B=1.092 rho=0.02 ratio=0.189 {'n_draws': 1000, 'ci95': [0.10363821751894957, 0.8402683526667951], 'share_gt_0p20': 0.418, 'median': 0.18555541760589606}
+[04:43:22] wrote /scratch/hi387/codersq/impact/estimates_v2_posthoc3/posthoc3_base_discovery.json
+POSTHOC3_DONE
+=== posthoc3 done Sat Nov 21 04:43:23 +04 2026 ===

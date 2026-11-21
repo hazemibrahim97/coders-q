@@ -1,0 +1,103 @@
+{
+  "analysis": "posthoc3",
+  "variant": "founder",
+  "half": "discovery",
+  "seed": 20261121,
+  "spec_note_path": "prereg/POSTHOC-NOTE-3-camera-ready-robustness.md",
+  "label": "post-unsealing exploratory (post-hoc)",
+  "panel_path": "/scratch/hi387/codersq/impact/joined/work_reach_v2.parquet",
+  "primary_cell": {
+    "credit": "R-share",
+    "W": 60,
+    "n_min": 5,
+    "proxy": "reach2"
+  },
+  "split_salt": "codersq-2026-07-11-discovery-holdout-v1",
+  "founder_panel": {
+    "n_works_panel": 2442448,
+    "n_founder_works_panel": 1747746,
+    "founder_share_panel": 0.71557142669977
+  },
+  "founder_cell": {
+    "n_works_cell_half": 564631,
+    "n_founder_works_cell_half": 453646,
+    "founder_share_cell_half": 0.803437997559468
+  },
+  "n_contributors": 9914,
+  "n_works": 106670,
+  "frac_zero": 0.5780819349395332,
+  "n_used_C1": 8280,
+  "n_dropped_alltie_C1": 1634,
+  "C1": {
+    "mean_P": 0.5448466213454248,
+    "null_mean_P": 0.5615648263119266,
+    "chi2": 43.27498085796289,
+    "df": 9,
+    "chi2_p": 1.918979454743296e-06,
+    "perm_p": 0.0001999600079984003,
+    "tvd": 0.026778630630158617,
+    "counts": [
+      262,
+      881,
+      1045,
+      633,
+      815,
+      1208,
+      652,
+      485,
+      1100,
+      1199
+    ],
+    "expected_counts": [
+      207.0,
+      809.6,
+      976.6,
+      629.7,
+      791.3,
+      1223.3,
+      687.2,
+      555.8,
+      1115.7,
+      1283.9
+    ]
+  },
+  "C2": {
+    "A_stableQ_share": 0.27728624969163734,
+    "B_AR_share": 1.0471335235663952,
+    "ratio_A_over_AB": 0.2093643233742438,
+    "rho": 0.02,
+    "A_ci": [
+      0.2325263918565966,
+      0.3244128969599955
+    ],
+    "growth_ratio": 1.4309741353370968,
+    "stationary": true,
+    "verdict_stable_Q": true,
+    "autocorr_lag1to8": [
+      0.2985,
+      0.2641,
+      0.2599,
+      0.26,
+      0.2717,
+      0.2765,
+      0.2978,
+      0.3111
+    ],
+    "autocorr_slope": 0.0037864452453892487
+  },
+  "qfit": {
+    "sigma_q2": 0.08600395736690891,
+    "sigma_p2": 0.6118424531080455,
+    "nbar_harmonic": 7.770711040734789
+  },
+  "split_half_r": 0.3963543325028075,
+  "ratio_boot": {
+    "n_draws": 1000,
+    "ci95": [
+      0.11288028135804437,
+      1.0
+    ],
+    "share_gt_0p20": 0.561,
+    "median": 0.21379502417288276
+  }
+}

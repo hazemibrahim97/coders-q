@@ -1,0 +1,93 @@
+{
+  "analysis": "posthoc3",
+  "variant": "norm_eco",
+  "half": "discovery",
+  "seed": 20261121,
+  "spec_note_path": "prereg/POSTHOC-NOTE-3-camera-ready-robustness.md",
+  "label": "post-unsealing exploratory (post-hoc)",
+  "panel_path": "/scratch/hi387/codersq/impact/joined/work_reach_v2.parquet",
+  "primary_cell": {
+    "credit": "R-share",
+    "W": 60,
+    "n_min": 5,
+    "proxy": "reach2"
+  },
+  "split_salt": "codersq-2026-07-11-discovery-holdout-v1",
+  "n_contributors": 14091,
+  "n_works": 153263,
+  "frac_zero": 0.5630321734534754,
+  "n_used_C1": 12436,
+  "n_dropped_alltie_C1": 1655,
+  "C1": {
+    "mean_P": 0.6150920387117985,
+    "null_mean_P": 0.5620439802504482,
+    "chi2": 749.7681778207798,
+    "df": 9,
+    "chi2_p": 1.3707771690960141e-155,
+    "perm_p": 0.0001999600079984003,
+    "tvd": 0.10011389822495947,
+    "counts": [
+      349,
+      1030,
+      1244,
+      763,
+      1020,
+      1561,
+      871,
+      771,
+      1875,
+      2952
+    ],
+    "expected_counts": [
+      309.9,
+      1196.9,
+      1482.6,
+      929.3,
+      1216.8,
+      1838.6,
+      1010.8,
+      830.0,
+      1686.5,
+      1934.6
+    ]
+  },
+  "C2": {
+    "A_stableQ_share": 0.2708575215020592,
+    "B_AR_share": 0.3039784192193048,
+    "ratio_A_over_AB": 0.4711909995783475,
+    "rho": 0.22,
+    "A_ci": [
+      0.2385278882116087,
+      0.3010468861507066
+    ],
+    "growth_ratio": 1.3309911032371986,
+    "stationary": true,
+    "verdict_stable_Q": true,
+    "autocorr_lag1to8": [
+      0.3373,
+      0.2888,
+      0.2711,
+      0.2604,
+      0.2713,
+      0.2649,
+      0.272,
+      0.2867
+    ],
+    "autocorr_slope": -0.0053074830253174304
+  },
+  "qfit": {
+    "sigma_q2": 0.11532931363616505,
+    "sigma_p2": 0.7062611669621834,
+    "nbar_harmonic": 7.806709249559682
+  },
+  "split_half_r": 0.4025506367077406,
+  "ratio_boot": {
+    "n_draws": 1000,
+    "ci95": [
+      0.1355158965630841,
+      0.55330398813208
+    ],
+    "share_gt_0p20": 0.963,
+    "median": 0.47477696213772863
+  }
+}

@@ -1,0 +1,8 @@
+=== posthoc3 base holdout start Sat Nov 21 04:45:22 +04 2026 on cn053 ===
+[04:45:35] variant=base half=holdout panel=/scratch/hi387/codersq/impact/joined/work_reach_v2.parquet seed=20261121
+[04:49:41] copied builder == frozen builder (exact)
+[04:49:41] N=13,957 works=152,256
+[05:18:30] C1 meanP=0.550 null=0.562 tvd=0.023 p=0.0001999600079984003 | C2 A=0.251 [0.20976042667605008, 0.298636939118368] B=1.143 rho=0.02 ratio=0.180 {'n_draws': 1000, 'ci95': [0.11758344591230592, 0.6590382462773117], 'share_gt_0p20': 0.565, 'median': 0.2161697779601846}
+[05:18:30] wrote /scratch/hi387/codersq/impact/estimates_v2_posthoc3/posthoc3_base_holdout.json
+POSTHOC3_DONE
+=== posthoc3 done Sat Nov 21 05:18:30 +04 2026 ===

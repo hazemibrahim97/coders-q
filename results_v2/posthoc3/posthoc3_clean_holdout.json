@@ -1,0 +1,93 @@
+{
+  "analysis": "posthoc3",
+  "variant": "clean",
+  "half": "holdout",
+  "seed": 20261121,
+  "spec_note_path": "prereg/POSTHOC-NOTE-3-camera-ready-robustness.md",
+  "label": "post-unsealing exploratory (post-hoc)",
+  "panel_path": "/scratch/hi387/codersq/impact/joined/work_reach_v2_clean.parquet",
+  "primary_cell": {
+    "credit": "R-share",
+    "W": 60,
+    "n_min": 5,
+    "proxy": "reach2"
+  },
+  "split_salt": "codersq-2026-07-11-discovery-holdout-v1",
+  "n_contributors": 3695,
+  "n_works": 39403,
+  "frac_zero": 0.5214831358018425,
+  "n_used_C1": 3152,
+  "n_dropped_alltie_C1": 543,
+  "C1": {
+    "mean_P": 0.5390571341620529,
+    "null_mean_P": 0.5628271662007708,
+    "chi2": 45.93254606466552,
+    "df": 9,
+    "chi2_p": 6.198225976130219e-07,
+    "perm_p": 0.0001999600079984003,
+    "tvd": 0.04336974615800184,
+    "counts": [
+      121,
+      350,
+      394,
+      260,
+      291,
+      441,
+      236,
+      193,
+      392,
+      474
+    ],
+    "expected_counts": [
+      77.4,
+      299.5,
+      377.0,
+      234.5,
+      309.8,
+      469.6,
+      254.8,
+      205.0,
+      430.9,
+      493.7
+    ]
+  },
+  "C2": {
+    "A_stableQ_share": 0.26631327838819385,
+    "B_AR_share": 0.5022867444748293,
+    "ratio_A_over_AB": 0.3464913745333769,
+    "rho": 0.02,
+    "A_ci": [
+      0.22162612340764978,
+      0.3088950729709733
+    ],
+    "growth_ratio": 1.530392229112031,
+    "stationary": false,
+    "verdict_stable_Q": false,
+    "autocorr_lag1to8": [
+      0.2765,
+      0.2608,
+      0.2561,
+      0.2472,
+      0.2532,
+      0.2824,
+      0.2853,
+      0.2794
+    ],
+    "autocorr_slope": 0.00271377270348912
+  },
+  "qfit": {
+    "sigma_q2": 0.0855495768408557,
+    "sigma_p2": 0.6324546468677278,
+    "nbar_harmonic": 7.696135300969402
+  },
+  "split_half_r": 0.4122676362752612,
+  "ratio_boot": {
+    "n_draws": 1000,
+    "ci95": [
+      0.15900066347384817,
+      1.0
+    ],
+    "share_gt_0p20": 0.911,
+    "median": 0.5545077192043175
+  }
+}

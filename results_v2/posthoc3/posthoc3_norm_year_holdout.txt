@@ -1,0 +1,7 @@
+=== posthoc3 norm_year holdout start Sat Nov 21 05:21:25 +04 2026 on cn108 ===
+[05:21:41] variant=norm_year half=holdout panel=/scratch/hi387/codersq/impact/joined/work_reach_v2.parquet seed=20261121
+[05:23:31] N=13,957 works=152,256
+[05:51:20] C1 meanP=0.617 null=0.563 tvd=0.103 p=0.0001999600079984003 | C2 A=0.300 [0.2619867098752765, 0.3356948773450167] B=0.254 rho=0.24 ratio=0.542 {'n_draws': 1000, 'ci95': [0.21503288391397107, 0.6042804993360515], 'share_gt_0p20': 0.975, 'median': 0.5369658076008198}
+[05:51:20] wrote /scratch/hi387/codersq/impact/estimates_v2_posthoc3/posthoc3_norm_year_holdout.json
+POSTHOC3_DONE
+=== posthoc3 done Sat Nov 21 05:51:21 +04 2026 ===

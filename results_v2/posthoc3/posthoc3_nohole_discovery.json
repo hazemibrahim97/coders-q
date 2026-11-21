@@ -1,0 +1,93 @@
+{
+  "analysis": "posthoc3",
+  "variant": "nohole",
+  "half": "discovery",
+  "seed": 20261121,
+  "spec_note_path": "prereg/POSTHOC-NOTE-3-camera-ready-robustness.md",
+  "label": "post-unsealing exploratory (post-hoc)",
+  "panel_path": "/scratch/hi387/codersq/impact/joined/work_reach_v2_nohole.parquet",
+  "primary_cell": {
+    "credit": "R-share",
+    "W": 60,
+    "n_min": 5,
+    "proxy": "reach2"
+  },
+  "split_salt": "codersq-2026-07-11-discovery-holdout-v1",
+  "n_contributors": 3784,
+  "n_works": 39290,
+  "frac_zero": 0.5097225757190125,
+  "n_used_C1": 3234,
+  "n_dropped_alltie_C1": 550,
+  "C1": {
+    "mean_P": 0.5337647136368106,
+    "null_mean_P": 0.5638265052590371,
+    "chi2": 60.226633023337186,
+    "df": 9,
+    "chi2_p": 1.2123915281388115e-09,
+    "perm_p": 0.0001999600079984003,
+    "tvd": 0.05025744970903467,
+    "counts": [
+      114,
+      395,
+      392,
+      242,
+      345,
+      442,
+      241,
+      197,
+      410,
+      456
+    ],
+    "expected_counts": [
+      76.3,
+      307.0,
+      383.0,
+      244.4,
+      317.1,
+      482.5,
+      261.6,
+      209.1,
+      446.7,
+      506.3
+    ]
+  },
+  "C2": {
+    "A_stableQ_share": 0.31015591238172174,
+    "B_AR_share": 0.0,
+    "ratio_A_over_AB": 1.0,
+    "rho": 0.0,
+    "A_ci": [
+      0.24714388157622447,
+      0.36441511228705814
+    ],
+    "growth_ratio": 1.431009285020864,
+    "stationary": true,
+    "verdict_stable_Q": true,
+    "autocorr_lag1to8": [
+      0.3095,
+      0.2875,
+      0.281,
+      0.296,
+      0.3027,
+      0.3249,
+      0.3275,
+      0.3522
+    ],
+    "autocorr_slope": 0.007590092321383312
+  },
+  "qfit": {
+    "sigma_q2": 0.11020249993825126,
+    "sigma_p2": 0.611872341328876,
+    "nbar_harmonic": 7.579345969960041
+  },
+  "split_half_r": 0.4238716630420841,
+  "ratio_boot": {
+    "n_draws": 1000,
+    "ci95": [
+      0.18223987214928983,
+      1.0
+    ],
+    "share_gt_0p20": 0.953,
+    "median": 0.933588127895616
+  }
+}

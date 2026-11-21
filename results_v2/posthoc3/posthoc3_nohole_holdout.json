@@ -1,0 +1,93 @@
+{
+  "analysis": "posthoc3",
+  "variant": "nohole",
+  "half": "holdout",
+  "seed": 20261121,
+  "spec_note_path": "prereg/POSTHOC-NOTE-3-camera-ready-robustness.md",
+  "label": "post-unsealing exploratory (post-hoc)",
+  "panel_path": "/scratch/hi387/codersq/impact/joined/work_reach_v2_nohole.parquet",
+  "primary_cell": {
+    "credit": "R-share",
+    "W": 60,
+    "n_min": 5,
+    "proxy": "reach2"
+  },
+  "split_salt": "codersq-2026-07-11-discovery-holdout-v1",
+  "n_contributors": 3781,
+  "n_works": 39935,
+  "frac_zero": 0.5137598597721297,
+  "n_used_C1": 3265,
+  "n_dropped_alltie_C1": 516,
+  "C1": {
+    "mean_P": 0.5425305583397593,
+    "null_mean_P": 0.5634739621713251,
+    "chi2": 49.87291337017056,
+    "df": 9,
+    "chi2_p": 1.138159966801071e-07,
+    "perm_p": 0.0001999600079984003,
+    "tvd": 0.04195194724209177,
+    "counts": [
+      123,
+      356,
+      406,
+      272,
+      284,
+      469,
+      258,
+      185,
+      410,
+      502
+    ],
+    "expected_counts": [
+      77.6,
+      308.4,
+      392.3,
+      241.7,
+      321.4,
+      489.0,
+      263.0,
+      208.8,
+      449.3,
+      513.4
+    ]
+  },
+  "C2": {
+    "A_stableQ_share": 0.26659477898138884,
+    "B_AR_share": 0.5035035623146322,
+    "ratio_A_over_AB": 0.34618277262190783,
+    "rho": 0.02,
+    "A_ci": [
+      0.21471069564687884,
+      0.3155576932256959
+    ],
+    "growth_ratio": 1.5297782830594295,
+    "stationary": false,
+    "verdict_stable_Q": false,
+    "autocorr_lag1to8": [
+      0.2768,
+      0.2607,
+      0.2548,
+      0.2452,
+      0.2526,
+      0.2809,
+      0.2875,
+      0.2846
+    ],
+    "autocorr_slope": 0.0032656460678647035
+  },
+  "qfit": {
+    "sigma_q2": 0.08728396114366407,
+    "sigma_p2": 0.6386095566399036,
+    "nbar_harmonic": 7.649626719229082
+  },
+  "split_half_r": 0.38484523218526506,
+  "ratio_boot": {
+    "n_draws": 1000,
+    "ci95": [
+      0.14497936139289974,
+      1.0
+    ],
+    "share_gt_0p20": 0.905,
+    "median": 0.5314428598522383
+  }
+}
